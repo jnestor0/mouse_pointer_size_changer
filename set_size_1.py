@@ -1,5 +1,8 @@
-import winreg
+"""Script to set the Windows mouse pointer size to 1."""
+
+# pylint: disable=duplicate-code
 import ctypes
+import winreg
 
 # Update accessibility preference (slider position)
 key = winreg.OpenKey(
