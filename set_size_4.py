@@ -35,5 +35,5 @@ ctypes.windll.user32.SystemParametersInfoW(
 # This is explicitly required on modern Windows to scale the cursor visually
 SPI_SETCURSORSIZE = 0x2029
 ctypes.windll.user32.SystemParametersInfoW(
-    SPI_SETCURSORSIZE, 0, 53, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE
+    SPI_SETCURSORSIZE, 0, 64, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE
 )
